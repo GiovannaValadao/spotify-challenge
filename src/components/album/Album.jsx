@@ -6,7 +6,7 @@ function Album() {
     <div className="album">
       <div className="album-container">
         <div class="album-container__content">
-          <img src={AlbumImage} />
+          <img class="album-container__content-image" src={AlbumImage} />
         </div>
         <ul class="album-container__info">
           <p class="album-container__info-title">
