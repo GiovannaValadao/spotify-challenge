@@ -21,7 +21,7 @@ function Album() {
               src="https://i.scdn.co/image/ab6761610000e5eb8df392a7b0b69c291ffd9231"
             />
             <p class="album-container__info-section-text">
-              <strong>Emicida</strong> &#9679; 2019 &#9679; 11 músicas, 48min
+              <strong>Emicida</strong> &#8226; 2019 &#8226; 11 músicas, 48min
               47s
             </p>
           </div>
