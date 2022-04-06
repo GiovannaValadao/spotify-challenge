@@ -8,7 +8,7 @@ function Album() {
         <div class="album-mobile__container-content">
           <img class="album-mobile__container-content-image" src={AlbumImage} />
         </div>
-        <ul class="album-mobile__container-info">
+        <div class="album-mobile__container-info">
           <p class="album-mobile__container-info-title">
             <strong>Amarelo</strong>
           </p>
@@ -27,7 +27,7 @@ function Album() {
               Album &#8226; 2019
             </p>
           </div>
-        </ul>
+        </div>
       </div>
     </div>
   )

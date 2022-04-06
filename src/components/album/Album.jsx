@@ -8,7 +8,7 @@ function Album() {
         <div class="album-container__content">
           <img class="album-container__content-image" src={AlbumImage} />
         </div>
-        <ul class="album-container__info">
+        <div class="album-container__info">
           <p class="album-container__info-title">
             <strong>ÁLBUM</strong>
           </p>
@@ -25,7 +25,7 @@ function Album() {
               47s
             </p>
           </div>
-        </ul>
+        </div>
       </div>
     </div>
   )
