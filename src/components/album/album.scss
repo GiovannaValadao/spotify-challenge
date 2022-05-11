@@ -1,5 +1,5 @@
 .album-container {
-  background: linear-gradient(transparent 0, rgba(0, 0, 0, 0.8) 100%);
+  background: linear-gradient(transparent 0, rgba(0, 0, 0, 0.818) 90%);
   height: 100%;
   width: 100%;
   display: flex;
@@ -7,7 +7,7 @@
 
   &__content {
     text-align: center;
-    padding: 76px 0 30px 30px;
+    padding: 0 0 30px 30px;
 
     &-image {
       width: 275px;
