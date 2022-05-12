@@ -1,5 +1,5 @@
 import './section.scss'
-import Arrow from '../../static/images/lala.jpeg'
+import Arrow from '../../static/images/arrow.jpeg'
 import Photo from '../../static/images/photo.png'
 import ArrowDown from '../../static/images/arrow-down.jpeg'
 
@@ -7,7 +7,12 @@ function Section() {
   return (
     <div className="section">
       <div className="section-container">
-        <img src={Arrow} alt="lala" width="70px" height="50px" />
+        <img
+          src={Arrow}
+          alt="setas para avançar ou voltar"
+          width="70px"
+          height="50px"
+        />
       </div>
       <div className="section-second-container">
         <div className="section-second-container__user">
@@ -24,6 +29,7 @@ function Section() {
             <img
               className="section-second-container__user-arrow-down-icon"
               src={ArrowDown}
+              alt="seta para baixo"
             ></img>
           </div>
         </div>
