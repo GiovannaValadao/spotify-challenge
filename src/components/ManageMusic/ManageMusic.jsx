@@ -8,30 +8,30 @@ function ManageMusic() {
   return (
     <div className="manage-music">
       <div className="manage-music-container">
-        <div class="manage-music-container__content">
+        <div class="manage-music-container__content-first">
           <img
-            class="manage-music-container__content-play"
+            class="manage-music-container__content-first-play"
             src={Play}
             alt="Ícone de play"
           />
         </div>
-        <div class="manage-music-container__content">
+        <div class="manage-music-container__content-second">
           <img
-            class="manage-music-container__content-like"
+            class="manage-music-container__content-second-like"
             src={Like}
             alt="Ícone de like"
           />
         </div>
-        <div class="manage-music-container__content">
+        <div class="manage-music-container__content-second">
           <img
-            class="manage-music-container__content-download"
+            class="manage-music-container__content-second-download"
             src={Download}
             alt="Ícone de download"
           />
         </div>
-        <div class="manage-music-container__content">
+        <div class="manage-music-container__content-second">
           <img
-            class="manage-music-container__content-three-circle"
+            class="manage-music-container__content-second-three-circle"
             src={ThreeCircle}
             alt="Ícone de opçoes"
           />
