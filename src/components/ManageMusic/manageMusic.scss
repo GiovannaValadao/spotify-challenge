@@ -1,0 +1,65 @@
+.manage-music {
+  &-container {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    background: #363636;
+    isolation: isolate;
+    align-items: center;
+    min-height: 60px;
+
+    &__content-first {
+      padding-right: 20px;
+      min-width: 45px;
+
+      &:hover {
+        width: 45px;
+        height: 45px;
+        -webkit-transition: -webkit-transform 0.5s;
+        transition: transform 0.5s;
+      }
+      &:hover img {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+      &-play {
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+      }
+    }
+    &__content-second {
+      &-like {
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+      }
+      &-download {
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+      }
+      &-three-circle {
+        width: 35px;
+        height: 35px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .manage-music-container {
+    padding: 6px;
+  }
+  &-like {
+    width: 25px;
+    height: 25px;
+  }
+  &-download {
+    width: 25px;
+    height: 25px;
+  }
+  &-three-circle {
+    width: 25px;
+    height: 25px;
+  }
+}
